@@ -1,0 +1,60 @@
+*{
+    background-color: black;
+}
+/* LoginHtml Began */
+/* .login{
+    background-color: burlywood;
+} */
+
+/* MondrianPainting HtmL began */
+.container{
+    display: grid;
+    grid-template-columns: 250px 250px 200px;
+    grid-template-rows: 200px  200px  150px;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.msg5{
+    font-family: 'Bona Nova', serif;
+    font-size: x-large  ;
+    justify-self: center;
+}
+.red{
+    background-color: rgb(255, 94, 0);
+
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: rgb(0, 238, 255);
+}
+
+.pink{
+    background-color: pink;
+}
+
+.white{
+    background-color: whitesmoke;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.white2{
+    background-color: white;
+}
+
+.yellow2{
+    background-color: yellow;
+}

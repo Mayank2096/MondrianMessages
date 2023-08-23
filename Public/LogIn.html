@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page for Messages</title>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
+    <style>
+        .container{
+            border: 10px;
+            background-color: brown;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            height: 100vh;
+            border-radius: 5%;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container login">
+        <h1> Privacy Check </h1>
+        <form action="/check" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" required>
+            <label for="password">Password</label>
+            <input type="text" name="password" required>
+            <input type="submit" value="Submit">
+        </form>
+        <h2>Hint: What's name of our son ?</h2>
+    </div>
+    
+</body>
+</html>
